@@ -1,0 +1,44 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+/* membuat halaman di tengah */
+.kotak-input {
+    display: block;
+    resize: none;
+}
+
+p > span {
+    color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+    font-weight: bold;
+}
+
+/* textarea */
+textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* tombol */
+button{
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.dark-mode {
+    background-color: #171b25;
+    color: #EBECF7;
+}
+
+.dark-mode textarea {
+    background-color: #2e3443;
+}
+
+.dark-mode button{
+    background-color: #29ddcc;
+    border: none;
+}
